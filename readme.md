@@ -11,7 +11,7 @@ Gegeven:
 
 Voeg het volgende op regel 8 toe in MainOne.java: `henry.setFullName("Sjaak", "van der", "Vlekkermans");`
 
-Je krijgt nu een foutmelding. Dat komt omdat de huidige methide setFullName maar _twee_ parameters ontvangt. Overload
+Je krijgt nu een foutmelding. Dat komt omdat de huidige methode setFullName maar _twee_ parameters ontvangt. Overload
 deze methode zodat deze er drie kan ontvangen. Pas de huidige setFullName dus niet aan!
 
 ## Opdracht 2
