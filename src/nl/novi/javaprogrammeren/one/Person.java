@@ -21,6 +21,11 @@ public class Person {
         this.lastName = lastName;
         this.lastNameInsertion = "";
     }
+    public void setFullName(String firstName, String lastNameInsertion, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.lastNameInsertion = lastNameInsertion;
+    }
 
     public String getFullName() {
         if(lastNameInsertion == null || lastNameInsertion.equalsIgnoreCase("")) {
